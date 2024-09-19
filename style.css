@@ -129,6 +129,7 @@ main{
 @media(min-width: 1000px){
     body{
         display: flex;
+        height: 100vh;;
     }
     header{
         background: none;
@@ -155,9 +156,13 @@ main{
         align-items: center;
     }
 
+    .bg-desktop img{
+        display: block;
+        width: 100%;
+    }
+
     .bg-desktop{
         display: block;
-        border: 1px solid red;
         width: 100%;
     }
 
